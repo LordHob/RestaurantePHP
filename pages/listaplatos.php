@@ -1,0 +1,26 @@
+<h1> LISTA DE PLATOS</h1>
+
+<?php
+
+//conexión la base de datos
+require './database/db_conect.php';
+$mysqli = conectar();
+
+//Consulta BBDD
+$resultado = $mysqli->query("SELECT id, titulo FROM plato");
+
+//Imprime resultado
+echo '<ol>';
+while ($reg = $resultado->fetch_assoc()) {
+    echo '<li>';
+    echo '<a href="http://localhost/dev/EquipoRest/pages/detalle_plato.php?id=' . $reg['id'] . '&titulo=' . $reg['titulo'] . '">' . $reg['titulo'] . '</a>';
+    echo '</li>';
+}
+echo '</ol>';
+// Añadimos el botón hacia la pantalla de nuevo plato
+echo '<a href="http://localhost/dev/EquipoRest/pages/form_plato.html">
+<button>Añadir plato</button>
+</a>';
+
+
+?>

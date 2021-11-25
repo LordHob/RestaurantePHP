@@ -19,6 +19,6 @@ echo '</ul>';
 
 // Añado botón para volver a index
 
-// echo '<a href="http://localhost/dev/restaurante/index.php">
-// <button type="button">Volver</button>
-// </a>';
+echo '<a href="http://localhost/dev/EquipoRest/pages/listaplatos.php">
+<button type="button">Volver</button>
+</a>';
