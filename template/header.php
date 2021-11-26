@@ -20,7 +20,7 @@ echo '<!DOCTYPE html>
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li><a href="../../pages/Home/home.php"><div class="logo-title"><div><img class="logo" src="../img/logo.png"/></div><div><p>PHP</p></div></div></a></li>
+            <li><a href="../EquipoRest/index.php"><div class="logo-title"><div><img class="logo" src="../img/logo2.png" alt="PHP" /></div><div><p></p></div></div></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-center">
             <li></li>
