@@ -1,6 +1,9 @@
 <h1> LOGIN </h1>
 
+<link rel="stylesheet" type="text/css" href="../styles/formularios.css" />
+
 <?php
+
 
 //Consulta y conexión a BBDD
 require '../db/db_connect.php';

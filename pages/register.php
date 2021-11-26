@@ -1,4 +1,5 @@
 <h1> REGISTRO </h1>
+<link rel="stylesheet" type="text/css" href="../styles/formularios.css" />
 
 <?php
 
