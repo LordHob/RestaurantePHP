@@ -1,14 +1,48 @@
-<h1> RESTAURANTE PHP</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<?php
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Document</title>
+</head>
 
-//conexión la base de datos
-// require './db/db_conect.php';
-// $mysqli = conectar();
+<body>
+    <div class="Header">
+        <?php
+        echo '<a href="http://localhost/dev/EquipoRest/pages/listaplatos.php">
+  <style>
+  button{cursor: pointer}
+  </style>
+  <button class="asd" type="button">Lista de platos</button>
+  </a>';
+        echo '<a href="http://localhost/dev/EquipoRest/pages/login.php">
+  <style>button{cursor: pointer}</style>
+  <button class="asd" type="button">Login</button>
+  </a>';
+        echo '<a href="http://localhost/dev/EquipoRest/pages/register.php">
+  <style>button{cursor: pointer}</style>
+  <button class="asd" type="button">Registrarse</button>
+  </a>';
+        ?>
+    </div>
+    <h1> RESTAURANTE PHP</h1>
 
-// Añadimos el botón hacia la pantalla de nuevo plato
-echo '<a href="http://localhost/dev/EquipoRest/listaplatos.php">
+    <?php
+
+    //conexión la base de datos
+    // require './db/db_connect.php';
+    // $mysqli = conectar();
+
+    // Añadimos el botón hacia la pantalla de nuevo plato
+    echo '<a href="http://localhost/dev/EquipoRest/pages/listaplatos.php">
 <button>Ver Carta</button>
 </a>';
 
-?>
+    ?>
+</body>
+
+</html>
