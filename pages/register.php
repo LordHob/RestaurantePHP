@@ -2,7 +2,7 @@
 
 <?php
 
-//conexión la base de datos
+//Consulta y conexión a BBDD
 require '../db/db_connect.php';
 $mysqli = conectar();
 
