@@ -7,7 +7,7 @@ $resultado = $mysqli->query("SELECT * FROM user WHERE id=" .$_GET["id"]);
 $reg=$resultado->fetch_assoc();
 
 function email_validation($str){  return (false !== strpos($str, "@") && false !== strpos($str, "."));}
-echo 'Hola mundo';
+echo 'Pantalla de Login';
 echo '<form method="post" action="" name="signin-form">
     <div class="form-element">
         <label>email</label>
