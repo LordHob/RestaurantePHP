@@ -17,7 +17,7 @@ echo '<li>Nombre Usuario: '.$reg['nombre'].'</li>';
 echo '<li>Email Usuario: '.$reg['email'].'</li>';
 echo '</ul>';
 // Añadimos el botón hacia la pantalla de nuevo plato
-echo '<a href="http://localhost/dev/EquipoRest/pages/form_plato.html">
+echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/form_plato.html">
 <button>Añadir plato</button>
 </a>';
 

@@ -3,7 +3,7 @@
 <?php
 
 //Consulta y conexión a BBDD
-require '../db/db_connect.php';
+require '../../db/db_connect.php';
 $mysqli = conectar();
 
 //Consulta BBDD
