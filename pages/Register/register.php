@@ -1,8 +1,9 @@
 <h1> REGISTRO </h1>
+<link rel="stylesheet" type="text/css" href="../styles/formularios.css" />
 
 <?php
 
-//conexión la base de datos
+//Consulta y conexión a BBDD
 require '../db/db_connect.php';
 $mysqli = conectar();
 
