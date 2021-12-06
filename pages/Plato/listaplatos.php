@@ -18,9 +18,19 @@ while ($reg = $resultado->fetch_assoc()) {
 }
 echo '</ol>';
 // Añadimos el botón hacia la pantalla de nuevo plato
-echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/form_plato.html">
-<button>Añadir plato</button>
+echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/añadir_plato.php">
+<button>Añadir un plato</button>
+</a>';
+
+// Añadimos el botón hacia la pantalla de actualizar plato
+echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/actualizar_plato.php">
+<button>Actualizar un plato</button>
 </a>';
 
 
+// Añado botón para ir a borrar un plato
+
+echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/delete_plato.php">
+<button type="button">Borrar un plato</button>
+</a>';
 ?>

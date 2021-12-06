@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
-    <title>RestaurantePHP-R</title>
+    <title>RestaurantePHP</title>
 </head>
 
 <body>
@@ -18,6 +18,10 @@
   button{cursor: pointer}
   </style>
   <button class="asd" type="button">Lista de platos</button>
+  </a>';
+    echo '<a href="http://localhost/dev/EquipoRest/pages/Ingrediente/listaingredientes.php">
+  <style>button{cursor: pointer}</style>
+  <button class="asd" type="button">Ingredientes</button>
   </a>';
         echo '<a href="http://localhost/dev/EquipoRest/pages/Login/login.php">
   <style>button{cursor: pointer}</style>

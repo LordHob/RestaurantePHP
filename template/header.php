@@ -35,7 +35,4 @@ echo '<!DOCTYPE html>
 </nav>
 </head>
 <body>
-'
-
-;
-?>
+';
