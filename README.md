@@ -1,12 +1,45 @@
 # RestaurantePHP :convenience_store:
 # :satellite:Tecnologías utilizadas: 
 
-![Logos_restphp](https://user-images.githubusercontent.com/90700748/145092650-903fe0a0-9834-4b31-a690-67777caedbf1.jpg)
+![RrestBueno](https://user-images.githubusercontent.com/90700748/145104273-d7125c00-6b7f-46b5-aff7-d4ea2aea7d82.jpg)
 
-
-## Descripción Proyecto:
-
+## :rocket:Enlace de despliegue:
 Proyecto desplegado en Heroku: https://restaurante-php-equipo.herokuapp.com/
+## Descripción Proyecto:
+El proyecto consiste en hacer una aplicación monolítica utilizanddo PHP 8 siendo el proyecto la simulación de una página hostelera en grupos. 
+
+Los requerimientos del proyecto son los siguientes:
+
+1.   Pantalla de Login, registro y
+     recuperación de contraseña.
+
+
+2.   Template de Backoffice completo
+    (navbar, menubbar y foooter…)
+
+
+3.  CRUD completo tanto a patos como
+    ingredientes, puedes utilizar formularios php para ello con mysqli.
+
+
+4.  Uso de Bootstrap.
+
+
+5.  El proyecto debe estar
+    desplegado en heroku, tanto BBDD como la propia aplicación.
+
+
+6.  Además de ello se tendrá en
+    cuenta las buenas practicas en su desarrollo y su documentación.
+
+
+7.  En lo que se refiere al GIT este debe estar bien definido con su estructura de ramas correcta. Cada miembro del
+    equipo debe hacer al menos un pull request a la rama principal para su integración. 
+
+
+8.  El archivo de readme debe
+    estar bien definido.
+
 
 ##  :clipboard: Estructura: 
 ## -Existen 5 carpetas principales en el proyecto :open_file_folder:(db, img, pages, styles y template)
