@@ -51,6 +51,6 @@ Proyecto desplegado en Heroku: https://restaurante-php-equipo.herokuapp.com/
 #### 5.- Por último, template: 
 5.1.- index.php abarca todo el contenido de la vista Home de la página.
      
-##    ---------------------------:computer: AUTORES DEL PROYECTO: ---------------------------------------                                               
+## :computer: AUTORES DEL PROYECTO:                                               
 ![pieBueno](https://user-images.githubusercontent.com/90700748/145102005-c3520d50-712f-42a8-82a8-b58572252fed.jpg)
 
