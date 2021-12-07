@@ -1,3 +1,7 @@
+<?php
+include '../../template/header.php';
+?>
+
 <h1> LISTA DE INGREDIENTES</h1>
 
 <?php
@@ -5,6 +9,8 @@
 //conexión la base de datos
 require '../../db/db_connect.php';
 $mysqli = conectar();
+
+
 
 //Consulta BBDD
 $resultado = $mysqli->query("SELECT id, nombre FROM ingrediente");

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Añade plato</title>
+</head>
+
+<body>
+    <!-- Añadimos formulario -->
+    <div classname="formulario">
+    <form action="plato.php" method="post">
+        <p>Nombre del plato: <input type="text" name="titulo" /></p>
+        <p>Número de comensales: <input type="number" name="comensales" /></p>
+        <p>Tipo plato: <select name="Tipo plato">
+                <option value="1">Entrante</option>
+                <option value="2">Principal</option>
+                <option value="3">Secundario</option>
+                <option value="4">Postre</option>
+            </select></p>
+        <p><input type="submit" value="Añadir plato" class="button" /></p>
+    </form>
+    </div>
+    
+</body>
+
+
+</html>
