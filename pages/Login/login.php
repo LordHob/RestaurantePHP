@@ -11,8 +11,12 @@ include '../../template/header.php';
     <form action="detalles_usuario.php" method="post">
         <fieldset>
             <div class="form-group">
+                <label for="correo">Nombre:</label>
+                <input type="text" class="form-control" id="email-login" name="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
                 <label for="correo">Email:</label>
-                <input type="email" class="form-control" id="email-login" name="correo" placeholder="Email">
+                <input type="email" class="form-control" id="email-login" name="email" placeholder="Email">
             </div>
             <div class="form-group">
                 <label for="contraseña">Password:</label>

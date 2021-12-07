@@ -12,7 +12,6 @@
 <body>
     <div class="Header">
         <?php
-        include './template/header.php';
         echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/listaplatos.php">
   <style>
   button{cursor: pointer}

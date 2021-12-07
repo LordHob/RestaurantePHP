@@ -19,20 +19,17 @@ echo '<!DOCTYPE html>
         </button>
     </div>
     <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-            <li><a href="../EquipoRest/index.php"><div class="logo-title"><div><img class="logo" src="../img/logo2.png" alt="PHP" /></div><div><p></p></div></div></a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-center">
-            <li></li>
-        
-        </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="../../index.php">Home</a></li>
-            <li><a href="../Login/login.php">Login</a></li>
-            <li><a href="../Register/register.php">Registrate</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/index.php">Home</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/pages/Login/login.php">Login</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/pages/Register/register.php">Registrate</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/pages/Plato/listaplatos.php">Lista de platos</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/pages/ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
         </ul>
     </div>
 </nav>
 </head>
 <body>
 ';
+
+?>

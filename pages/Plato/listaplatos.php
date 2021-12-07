@@ -1,3 +1,6 @@
+<?php
+include '../../template/header.php';
+?>
 <h1> LISTA DE PLATOS</h1>
 
 <?php
@@ -5,6 +8,8 @@
 //conexión la base de datos
 require '../../db/db_connect.php';
 $mysqli = conectar();
+
+
 
 //Consulta BBDD
 $resultado = $mysqli->query("SELECT id, titulo FROM plato");
@@ -22,14 +27,8 @@ echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/añadir_plato.php">
 <button>Añadir un plato</button>
 </a>';
 
-// Añadimos el botón hacia la pantalla de actualizar plato
-echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/actualizar_plato.php">
-<button>Actualizar un plato</button>
-</a>';
-
 
 // Añado botón para ir a borrar un plato
-
 echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/delete_plato.php">
 <button type="button">Borrar un plato</button>
 </a>';
