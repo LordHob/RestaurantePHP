@@ -10,9 +10,9 @@ include '../../template/header.php';
     <h1>LOGIN</h1>
     <form action="detalles_usuario.php" method="post">
         <fieldset>
-        <div class="form-group">
-                <label for="correo">Nombre:</label>
-                <input type="text" class="form-control" id="email-login" name="nombre" placeholder="Nombre">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre-login" name="nombre" placeholder="Nombre">
             </div>
             <div class="form-group">
                 <label for="correo">Email:</label>
@@ -27,6 +27,6 @@ include '../../template/header.php';
     </form>
 </div>
 <?php
-include '../../template/footer.php';
+// include '../../template/footer.php';
 
 ?>
