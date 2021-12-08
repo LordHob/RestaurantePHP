@@ -3,4 +3,4 @@
 require '../../db/db_connect.php';
 $mysqli = conectar();
 $resultado = $mysqli->query("INSERT INTO ingrediente (nombre, cantidad) VALUES ('".$_REQUEST['nombre']."', '".$_REQUEST['cantidad']."')");
-header('Location: http://localhost/dev/EquipoRest/pages/Ingrediente/listaingredientes.php');
+header('Location: https://restaurante-php-equipo.herokuapp.com/pages/Ingrediente/listaingredientes.php');

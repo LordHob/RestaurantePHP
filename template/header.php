@@ -9,15 +9,15 @@ echo '<!DOCTYPE html>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <title>Header</title>
+    <title>Restaurante PHP</title>
     <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://localhost/dev/EquipoRest/index.php">Home</a></li>
-            <li><a href="http://localhost/dev/EquipoRest/pages/Login/login.php">Login</a></li>
-            <li><a href="http://localhost/dev/EquipoRest/pages/Register/register.php">Registrate</a></li>
-            <li><a href="http://localhost/dev/EquipoRest/pages/Plato/listaplatos.php">Lista de platos</a></li>
-            <li><a href="http://localhost/dev/EquipoRest/pages/ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/index.php">Home</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Login/login.php">Login</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Register/register.php">Registrate</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/listaplatos.php">Lista de platos</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
         </ul>
     </div>
 </nav>
