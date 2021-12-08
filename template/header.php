@@ -19,7 +19,7 @@ echo '<!DOCTYPE html>
             <li><a href="http://localhost/dev/EquipoRest/pages/Login/login.php">Login</a></li>
             <li><a href="http://localhost/dev/EquipoRest/pages/Register/register.php">Registrate</a></li>
             <li><a href="http://localhost/dev/EquipoRest/pages/Plato/listaplatos.php">Lista de platos</a></li>
-            <li><a href="http://localhost/dev/EquipoRest/pages/ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
+            <li><a href="http://localhost/dev/EquipoRest/pages/Ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
         </ul>
     </div>
 </nav>
