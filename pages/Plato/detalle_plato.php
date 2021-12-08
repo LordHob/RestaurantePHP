@@ -45,7 +45,7 @@ echo '</ul>';
 <?php
 // Añado botón para volver a index
 
-echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/listaplatos.php">
+echo '<a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/listaplatos.php">
 <button type="button">Volver</button>
 </a>';
 

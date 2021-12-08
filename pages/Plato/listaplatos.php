@@ -18,18 +18,18 @@ $resultado = $mysqli->query("SELECT id, titulo FROM plato");
 echo '<ol>';
 while ($reg = $resultado->fetch_assoc()) {
     echo '<li>';
-    echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/detalle_plato.php?id=' . $reg['id'] . '&titulo=' . $reg['titulo'] . '">' . $reg['titulo'] . '</a>';
+    echo '<a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/detalle_plato.php?id=' . $reg['id'] . '&titulo=' . $reg['titulo'] . '">' . $reg['titulo'] . '</a>';
     echo '</li>';
 }
 echo '</ol>';
 // Añadimos el botón hacia la pantalla de nuevo plato
-echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/añadir_plato.php">
+echo '<a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/añadir_plato.php">
 <button>Añadir un plato</button>
 </a>';
 
 
 // Añado botón para ir a borrar un plato
-echo '<a href="http://localhost/dev/EquipoRest/pages/Plato/delete_plato.php">
+echo '<a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/delete_plato.php">
 <button type="button">Borrar un plato</button>
 </a>';
 ?>
