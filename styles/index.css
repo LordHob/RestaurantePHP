@@ -9,3 +9,25 @@ margin : 0,2vh ;
 .formulario{
 background-color: brown;
 }
+
+.fondo{
+    margin-top: -1em;
+    height: 48em;
+    background: url("https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/06/25/15614775255199.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.mensaje{
+    -webkit-text-stroke: 1px white;
+    top: 30%;
+    font-size: 3em;
+    transform: uppercase;
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    color: black;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -11,6 +11,13 @@ echo '<!DOCTYPE html>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <title>Header</title>
     <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="http://localhost/dev/EquipoRest/index.php">Home</a></li>
