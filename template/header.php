@@ -9,7 +9,7 @@ echo '<!DOCTYPE html>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <title>Header</title>
+    <title>Restaurante PHP</title>
     <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
