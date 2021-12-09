@@ -7,13 +7,13 @@ include '../../template/header.php';
 require '../../db/db_connect.php';
 $mysqli = conectar();
 
-//HAGO CONSULTA A BASE DE DATOS PARA BUSCAR EL USUARIO LOGADO CON CORREO Y CONTRASEÑA
+//Consulta a la BD para buscar usuario logado con su contraseña y password
 $resultado = $mysqli->query("SELECT * FROM user WHERE (email = " . $_POST['email'] . "  , contraseña =  . $_POST[contraseña] . )");
 
-//GUARDO RESULTADO DE LA CONSULTA EN VARIABLE USUARIO
+//Se guarda el resultado de esta consulta en la variable usuario
 $usuario = $resultado /*->fetch_all()*/;
 
-//PINTO DATOS DE USUARIO LOGADO
+//Pintamos los datos del usuario
 echo '<div class="container">';
 echo "<h1>Perfil de usuario de " . $_POST['nombre'] . "</h1>";
 echo "<ul class='list-group'>";
