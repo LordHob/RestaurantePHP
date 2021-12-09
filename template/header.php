@@ -17,7 +17,7 @@ echo '<!DOCTYPE html>
             <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Login/login.php">Login</a></li>
             <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Register/register.php">Registrate</a></li>
             <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Plato/listaplatos.php">Lista de platos</a></li>
-            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
+            <li><a href="https://restaurante-php-equipo.herokuapp.com/pages/Ingrediente/listaingredientes.php">Lista de ingredientes</a></li>
         </ul>
     </div>
 </nav>
